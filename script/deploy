@@ -1,9 +1,7 @@
 #!/bin/sh
 
-<<EOF
   cd /home/dubose/sandbox/nonsites/hello-jenkins
   git pull
   npm install --production
   forever restartall
   exit
-EOF
