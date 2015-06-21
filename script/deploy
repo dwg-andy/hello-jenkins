@@ -1,6 +1,6 @@
 #!/bin/sh
 
-su dubose <<EOF
+su - dubose <<EOF
   cd ~/sandbox/nonsites/hello-jenkins
   git pull
   npm install --production
